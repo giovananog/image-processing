@@ -116,10 +116,20 @@ Para realizar a amostragem dessa função, colhemos amostras igualmente espaçad
 Para formar uma função digital, os valores de intensidade também devem ser convertidos (quantizados) em quantidades discretas. As amostras digitais resultantes da amostragem e da quantização são mostradas na Figura 2.16(d). Ao começar na parte superior da imagem e realizar esse procedimento linha por linha, produz-se uma imagem digital bidimensional.
 
 
-
 ---
 
-representacao de imagens digitais 
+# Representação de Imagens Digitais
 
-em geral, o valor da imagem em quaisquer coordenadas (x, y) é expresso por f (x, y), odnde  x e y sao numeros inteiros. a secao do plano real que se expande pela scoordenads de uma iamgem é chamada de dominio espaial, com x e y sendo chamadas de variaveis espaciais e coorddenadas espaciais.
+Em geral, o valor da imagem em quaisquer coordenadas (x, y) é expresso por f(x, y), onde x e y são números inteiros. A seção do plano real que se expande pelas coordenadas de uma imagem é chamada de domínio espacial, com x e y sendo chamadas de variáveis espaciais e coordenadas espaciais.
+
+Sejam M e N o número de linhas e colunas da imagem, e L o número discreto de níveis de intensidade retornado pela função f. Então, \(0 \leq x \leq M - 1\), \(0 \leq y \leq N - 1\) definem a amostragem da imagem digital, e \(0 \leq f(x, y) \leq L - 1\) define a quantização.
+
+O número L representa os níveis discretos de intensidade da imagem:
+ L = 2^k
+Uma imagem com 256 valores discretos possíveis de intensidade é chamada de uma imagem de 8 bits.
+
+O número \(b\), de bits necessários para armazenar uma imagem digitalizada, é dado por:
+ b = M . N . k
+
+Dado o tamanho da imagem (em cm, mm), o número de valores discretos que podem ser tomados depende da resolução, definida normalmente por DPI (dots per inch, pontos por polegada).
 
