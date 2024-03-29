@@ -34,3 +34,116 @@ tamanho total de bits de armazenamento da imagem:
  b = N.M.k  =>  b = 1024.1024.8  =>  b = 8.388.608 bits
 
  
+
+ ---
+
+ exercicio 4
+
+ componentes com vizinhança-4: 4
+ componentes com vizinhança-8: 1
+
+
+ ---
+
+ exercicio 5
+
+"Uma imagem pode ser contínua em relação às coordenadas ( x ) e ( y ) e também em relação à amplitude. Para convertê-la para o formato digital, é necessário realizar a amostragem da função em ambas as coordenadas e na amplitude. A digitalização dos valores é chamada de amostragem, e a digitalização dos valores de amplitude é chamada de quantização."
+
+a frase está descrevendo o processo de converter uma imagem analógica em uma forma digital, onde você seleciona pontos específicos na imagem (amostragem) e atribui valores discretos a esses pontos para representar sua intensidade (quantização), enquanto a imagem original tem uma ampla gama de tons possíveis (amplitude).
+
+
+
+---
+
+exercicio 6
+
+p = (1, 1)
+q = (6, 6)
+
+
+. distancia euclidiana:
+        \sqrt((1-6)^2 + (1-6)^2) = 5\sqrt(2)
+
+. distancia city-block:
+        |1-6| + |1-6|  = 10
+
+. distancia xadrez: 
+        max(|1-6|, |1-6|) = 5
+
+
+
+
+---
+
+exercicio 7
+
+
+
+---
+
+exercicio 8
+
+
+
+---
+
+exercicio 9
+
+
+7 3 6 7 7 6 6 7
+7 3 7 3 0 3 7 6
+6 6 5 6 3 3 7 6
+7 0 5 6 7 0 0 7
+3 0 6 3 6 3 5 3
+7 6 3 3 5 3 6 6
+5 7 6 6 3 5 7 5
+6 7 6 6 0 6 5 6
+
+
+
+---
+
+exercicio 10
+
+
+T[8] = [0, 3, 5, 6, 6, 6, 7, 7]
+        0  1  2  3  4  5  6  7
+
+
+
+---
+
+exercicio 11
+
+
+matriz:
+            9 5 7 5 3 4
+            0 2 6 4 2 5
+            4 1 2 4 6 2
+            2 3 6 3 0 0
+            7 8 3 4 5 4
+            0 5 2 9 8 7
+
+MN = 36
+L = 10
+
+            r_k      n_k  
+            r0 = 0    4
+            r1 = 1    1
+            r2 = 2    6 
+            r3 = 3    4 
+            r4 = 4    6 
+            r5 = 5    5 
+            r6 = 6    3
+            r7 = 7    3 
+            r8 = 8    2
+            r9 = 9    2 
+            
+
+
+---
+
+exercicio 12
+
+M.N = 1330
+
