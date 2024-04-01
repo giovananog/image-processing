@@ -89,11 +89,6 @@ borda interior:
 
 ---
 
-exercicio 8
-
-
-
----
 
 exercicio 9
 
@@ -173,10 +168,5 @@ nova distribuicao:
     Nro. pixels(nk)     0  120 200  0 350  0  500 160
 
 
-
-
----
-
-exercicio 13
 
 
