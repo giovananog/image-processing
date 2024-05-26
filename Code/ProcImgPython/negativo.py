@@ -87,10 +87,11 @@ for i in range(nl):
 print (np.asarray (imgS))
 savepgm("result.pgm", imgS, 255)
 
-os.system("{} {} &".format("eog", "result.pgm"))
+# os.system("{} {} &".format("eog", "result.pgm"))
 
-#Discomment this line for windows system
-#os.system("{} {} &".format("i_view64", "result.pgm"))
+# Discomment this line for windows system
+# os.system("{} {} &".format("i_view64", "result.pgm"))
+os.system('"C:/Program Files/IrfanView/i_view64.exe" result.pgm')
 
 # Other form to calculate negative image in python
 # imgT = np.asarray(img)
