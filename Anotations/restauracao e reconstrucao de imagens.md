@@ -20,4 +20,4 @@ A restauração e reconstrução de imagens têm como objetivo melhorar a qualid
 
 A escolha entre técnicas de restauração no domínio espacial ou de frequência depende das características específicas da imagem e do tipo de degradação a ser corrigido.
 
-![Figura 3](imagens\image3.png)
+![Figura 3](imagens/image3.png)

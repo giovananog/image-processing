@@ -8,7 +8,7 @@ A função da base é a soma das quatro funções ao lado. Em 1807 a ideia de Fo
 
 ### Amostragem
 
-![Figura 1](imagens\image1.png)
+![Figura 1](imagens/image1.png)
 
 (a) Função contínua. (b) Trem de impulsos utilizado para modelar o processo de amostragem. (c) Função amostrada formada pelo produto de (a) e (b). (d) Amostras obtidas pela integração e pelo uso da propriedade de peneiramento do impulso. (A linha tracejada em (c) foi incluída para referência. Ela não faz parte dos dados).
 
@@ -22,4 +22,4 @@ k = fn, onde p = par e i = ímpar. Se substituirmos os p’s e os i’s por 0’
 
 ## Esquema Butterfly
 
-![Esquema butterfly](Anotations\imagens\image2.png)
+![Esquema butterfly](imagens/image2.png)
