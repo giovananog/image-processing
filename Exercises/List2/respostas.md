@@ -86,3 +86,7 @@ Para implementar a operação Watershed, pode-se utilizar um algoritmo que simul
 
 
 10-
+
+11- 
+
+12- A segmentação de contornos e a codificação de cadeia podem ser utilizadas para definir um formato de imagem simplificado ao identificar e extrair as bordas dos objetos presentes na imagem. A segmentação de contornos isola os objetos do fundo, identificando onde ocorrem mudanças abruptas de intensidade, enquanto a codificação de cadeia registra a direção dos movimentos entre pixels consecutivos ao longo do contorno. Esse método permite representar a imagem de forma compacta, armazenando apenas as direções dos contornos em vez de todos os pixels, resultando em uma representação eficiente e reduzida que captura a forma dos objetos sem os detalhes internos.
