@@ -80,4 +80,9 @@ Gradiente: Calcular o gradiente morfológico, que é a diferença entre a imagem
 
 
 
-9- 
+9- A operação Watershed é uma técnica de segmentação em Morfologia Matemática que simula o preenchimento de uma superfície topográfica, onde a altitude é representada pelos níveis de cinza de uma imagem numérica. Essa operação é utilizada para segmentar regiões em uma imagem com base em mínimos locais, chamados de marcadores, e na construção de diques virtuais para evitar a junção de fluxos de "água" durante o preenchimento da superfície. 
+
+Para implementar a operação Watershed, pode-se utilizar um algoritmo que simule o crescimento das regiões a partir dos marcadores. Esse algoritmo geralmente utiliza uma fila de prioridade ordenada de acordo com os níveis de cinza da imagem. Cada ponto é extraído da fila e agregado à região correspondente, garantindo que pontos vizinhos de duas regiões com rótulos diferentes sejam identificados como pontos de borda. Essa abordagem permite a segmentação eficiente de regiões em uma imagem com base em características locais de intensidade.
+
+
+10-
